@@ -13,7 +13,7 @@ public class App
         Kawasaki kawasaki = new Kawasaki();
         Race race = new Race();
 
-        ferrari.setSpeed(400);
+        ferrari.setSpeed(1000);
         kawasaki.setSpeed(200);
 
         race.race(ferrari.getSpeed(), kawasaki.getSpeed());
